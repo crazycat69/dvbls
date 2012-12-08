@@ -1,6 +1,8 @@
 # INSTALL
 
-    sudo gcc -o /usr/bin/dvbls ./dvbls.c
+    wget https://bitbucket.org/cesbo/dvbls/raw/master/dvbls.c
+    sudo gcc -o /usr/bin/dvbls dvbls.c
+    rm dvbls.c
 
 # LICENSE
 
