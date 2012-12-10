@@ -114,7 +114,7 @@ static void check_device_frontend(void)
 {
     sprintf(dev_name, "/dev/dvb/adapter%d/frontend%d", adapter, device);
 
-    int fd = open(dev_name, O_RDWR | O_NONBLOCK);
+    int fd = open(dev_name, O_RDONLY | O_NONBLOCK);
     if(!fd)
     {
         printf("ERROR: open() failed %s [%s]\n", dev_name, strerror(errno));
