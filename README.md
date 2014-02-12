@@ -1,9 +1,3 @@
-# INSTALL
-
-    wget https://bitbucket.org/cesbo/dvbls/raw/master/dvbls.c
-    sudo gcc -o /usr/bin/dvbls dvbls.c
-    rm dvbls.c
-
 # LICENSE
 
     Copyright (C) 2012, Andrey Dyldin <and@cesbo.com>
